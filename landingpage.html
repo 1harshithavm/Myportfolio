@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="landingpage.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="title">Welcome to bali</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+                <button class="btn" onclick="togglePopup()">Sign in</button>
+                <div class="overlay" id="overlay" onclick="togglePopup()"></div>
+                <div class="popup" id="popup">
+                <h2>Sign In</h2>
+                <input type="text" placeholder="Username" style="margin: 5px; padding: 10px; width: 80%;">
+                <input type="password" placeholder="Password" style="margin: 5px; padding: 10px; width: 80%;">
+                <button class="close-btn" onclick="togglePopup()">Close</button>
+                </div>
+                <img class="img" src="Tourist Attractions.png">
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div class="body">
+    <img class="background" src="bali3.jpg">
+    <div class="section">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Explore the world's most beautiful place and create memories that last's for lifetime..!</p>
+    </div>
+        <div class="search">Explore more places in bali<img class="icon" src="icons8-search-50.png"></div>
+
+    </div>
+<script>
+    function togglePopup() {
+        const popup = document.getElementById("popup");
+        const overlay = document.getElementById("overlay");
+        popup.classList.toggle("active");
+        overlay.classList.toggle("active");
+    }
+</script>
+</body>
+</html>
