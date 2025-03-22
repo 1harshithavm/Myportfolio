@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 46px;
+}
+body {
+    background-color: #c0aea4;
+}
+.calci .num {
+    justify-content: center;
+    position: relative;
+    top: 154px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: -43rem;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin: 6px 3px;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.calci {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid  #092f63;
+    height: 500px;
+    width: 295px;
+    position: relative;
+    top: 103px;
+    right: -620px;
+    border-radius: 25px;
+    margin: 20p;
+    background-color: #999cbd;
+}
+.calci .row{
+    position: relative;
+    right: 1px;
+    top: -143px;
+    margin: -2px -0.5px;
+}
+ #num1 {
+    width: 247px;
+    height: 86px;
+    background-color: #e2dcdc;
+    position: relative;
+    top: 33px;
+    border-radius: 14px;
+    font-size: 2rem;
+    border: 2px solid black;
+    color: black;
+}
+.heading{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 21px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 11px;
+    height: 23px;
+    width: 200px;
+    text-align: center;
+    background-color: #79938f;
+    border-radius: 4px;
+    font-family: "Donegal One", serif;
+
+}
+.num2{
+    position: relative;
+    right:94px;
+    justify-content: center;
+    position: relative;
+    top: 154px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: -43rem;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin: 6px 3px;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
